@@ -1,14 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void) {
+int main(void) {	
+	char str[30] = "happy C programming";
 	
-	char src[] = "The worst things to eat before you sleep";
-	char dst[100];
-	
-	strcpy(dst,src);
-	
-	printf("copied string : %s",dst);
+	printf("문자열 %s의 길이 : %i\n",str,strlen(str));
 
 }
 
