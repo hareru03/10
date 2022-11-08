@@ -8,8 +8,6 @@ int main(int argc, char *argv[]) {
 	
 	fp=fopen("sample.txt","w");
 	
-	int word1,word2,word3;
-	
 	printf("input a word:");
 	scanf("%s",str);
 	fprintf(fp,"%s\n",str);
